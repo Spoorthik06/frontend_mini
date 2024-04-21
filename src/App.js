@@ -50,7 +50,7 @@ function Login({ onLogin }) {
           />
           <button type="submit">Login</button>
         </form>
-        <Link to="/register">Register</Link>
+        <Link to="/register" id='regis'>Register</Link>
       </div>
     </div>
   );
@@ -127,7 +127,7 @@ function Register({ onRegister }) {
           />
           <div className="button-container">
             <button type="submit">Register</button>
-            <Link to="/login" className="register-link">Login Here</Link>
+            <Link to="/login" className="register-link">Login </Link>
           </div>
         </form>
       </div>
@@ -152,7 +152,7 @@ function Home({ products }) {
 
   return (
     <div>
-      <h1>MAJELELLO.COM</h1>
+      <h1>Products App </h1>
       <div class='rbord'>
       <div className='search-bar'>
         <input
